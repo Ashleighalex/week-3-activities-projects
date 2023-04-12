@@ -1,0 +1,64 @@
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#headerContainer {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 200px;
+    width: 100vw;
+}
+
+#headerContainer h1, #colorToGuess {
+    color: white;
+    margin: 15px;
+}
+
+#controlBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 49, 49);
+    color: antiquewhite;
+    width: 100vw;
+}
+
+#newColBtn {
+    background-color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 0%;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+#newColBtn:hover {
+    background-color: rgb(37, 37, 37);
+
+}
+
+#optionscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    height: 330px;
+   
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
